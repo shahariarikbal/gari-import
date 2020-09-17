@@ -1,0 +1,166 @@
+.question {
+    margin-top: 20px;
+    /*border: 2px solid darkred;*/
+    border-radius:350px;
+}
+.ccs--toggle-btn {
+    display: none;
+}
+
+.bg-img {
+    background-image: url("/img/slide2.jpg");
+}
+
+.logo {
+    height: 90px;
+    width: 192px;
+}
+
+.step {
+    color: white;
+    margin-top: 18px;
+    margin-left: 10px;
+    font-size: 13px;
+}
+
+.step-title {
+    color: #0b0b0b;
+    font-weight: 500;
+    text-transform: capitalize;
+    font-size: 24px;
+}
+@media(min-width:400px) {
+    .width-4 {
+        width:4%;
+    }
+}
+@media(max-width:480px){
+    .step-title {
+        font-size:18px;
+    }
+}
+@media(max-width:350px){
+    .step-title {
+        margin: 7px 0 0 0;
+    }
+}
+
+.txt-align {
+    text-align: center;
+}
+.m-l-20 {
+    margin-left: 20px;
+}
+
+.p-bold {
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.p-color {
+    color: #0b0b0b;
+}
+
+.pd--30-0-40 {
+    padding: 29px 0 40px;
+}
+
+.pd--24-0-110 {
+    padding: 24px 0 110px;
+}
+@media(max-width:1199px){
+    .pd--24-0-110 {
+        padding: 24px 0 35px;
+    }
+}
+
+@media (max-width: 450px) {
+    .responsive-faq {
+        margin-top: 0px;
+        padding-top: 15px;
+    }
+
+    .step {
+        margin-top: 0px;
+        padding-top: 15px;
+    }
+
+    .payment {
+        width: 200px;
+    }
+    .payment-btn {
+        width: 100px;
+        height: 42px;
+    }
+    .payment-alert {
+        padding: 30px;
+        padding-top: 10px;
+    }
+}
+
+@media (max-width: 770px) {
+    .responsive-faq {
+        margin-top: 0px;
+        padding-top: 15px;
+    }
+
+    .step {
+        margin-top: 0px;
+        padding-top: 15px;
+    }
+
+    .payment {
+        width: 200px;
+    }
+    .payment-btn {
+        width: 100px;
+        height: 42px;
+    }
+    .payment-alert {
+        padding: 30px;
+        padding-top: 10px;
+    }
+}
+
+.alert-primary {
+    color: #004085;
+    background-color: #cce5ff;
+    border-color: #b8daff;
+}
+.alert {
+    position: relative;
+    padding: .75rem 1.25rem;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+}
+a.r_filter:link, a.r_filter:visited, a.r_filter:active, a.r_filter:hover {
+    margin-left: 4px;
+    font-size: 14px;
+    text-decoration: underline;
+    color: #c4302b;
+    font-weight: bold;
+}
+
+.padding10{
+    padding: 10px!important;
+}
+
+.marginTop20{
+    margin-top: 20px!important;
+}
+
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+    }
+}
